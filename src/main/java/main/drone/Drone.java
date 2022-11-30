@@ -26,7 +26,7 @@ public class Drone {
                 Output.printDroneArrivedToDestination(this.serialNo);
                 state.setInAir(false);
                 groundControl.declareLanding(state.getHeight());
-                state.setTimeToPassengerArrival(rnd.nextInt(1, Constants.MAX_BOUND_FOR_PASSENGER_ARRIVAL + 1)); // Set random time to passenger arrival.
+                state.setTimeToPassengerArrival(rnd.nextInt(1, Constants.MAX_TIME_FOR_PASSENGER_ARRIVAL + 1)); // Set random time to passenger arrival.
             }
         } else { // Drone is on the ground
             state.setTimeToPassengerArrival(state.getTimeToPassengerArrival() - 1); // Decrement time to passenger arrival.

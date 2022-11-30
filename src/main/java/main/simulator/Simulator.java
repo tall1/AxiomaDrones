@@ -36,7 +36,7 @@ public class Simulator {
         long period = 1000L * Constants.SECONDS_FOR_RATE; // Note: for faster simulations: lower the SECONDS_FOR_RATE constant.
         timer.scheduleAtFixedRate(new TimerTask() {
             public void run() {
-                if (ticker == Constants.DURATION) {
+                if (ticker == Constants.DURATION) { // Finished time duration
                     this.cancel();
                     finishSimulation();
                 } else {

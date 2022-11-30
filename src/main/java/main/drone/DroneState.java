@@ -11,7 +11,7 @@ public class DroneState {
     private int timeToDestination = -1;
 
     public DroneState() {
-        timeToPassengerArrival = new Random().nextInt(1, Constants.MAX_BOUND_FOR_PASSENGER_ARRIVAL + 1); // Initialize random time for passenger arrival
+        timeToPassengerArrival = new Random().nextInt(1, Constants.MAX_TIME_FOR_PASSENGER_ARRIVAL + 1); // Initialize random time for passenger arrival
     }
 
     public boolean isInAir() {
