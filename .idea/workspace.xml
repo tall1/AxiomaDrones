@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92d48256-6295-479a-92f1-d309a02b685b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/drone/Drone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/drone/DroneState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/ground/control/GroundControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/simulator/Simulator.java" afterDir="false" />
+    <list default="true" id="92d48256-6295-479a-92f1-d309a02b685b" name="Changes" comment="Updated Drone, DroneState, Simulator and more.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/utils/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/drone/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/drone/Drone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/drone/DroneState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/drone/DroneState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/ground/control/GroundControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/ground/control/GroundControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/simulator/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/simulator/Simulator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +58,7 @@
       <module name="AxiomaDrones" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="main.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,8 +80,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669760043285</updated>
-      <workItem from="1669760044758" duration="1241000" />
+      <workItem from="1669760044758" duration="3041000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated Drone, DroneState, Simulator and more.">
+      <created>1669761896843</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669761896843</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated Drone, DroneState, Simulator and more." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Drone, DroneState, Simulator and more." />
   </component>
 </project>

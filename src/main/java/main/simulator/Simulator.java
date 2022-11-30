@@ -1,6 +1,6 @@
 package main.simulator;
 
-import main.Constants;
+import main.utils.Constants;
 import main.drone.Drone;
 import main.ground.control.GroundControl;
 
@@ -24,19 +24,19 @@ public class Simulator {
         this.timer = new Timer();
     }
 
-    public void startSimulation(int duration) {
+    public void startSimulation() {
         System.out.println("\n==================\n");
         System.out.println("Simulation Started:");
         System.out.println("\n==================\n");
 
-        beginTimer(duration);
+        beginTimer();
     }
 
-    private void beginTimer(int duration) {
+    private void beginTimer() {
         long period = 1000L * Constants.SECONDS_FOR_RATE; // Note: for faster simulations: lower the SECONDS_FOR_RATE constant.
         timer.scheduleAtFixedRate(new TimerTask() {
             public void run() {
-                if (ticker == duration) {
+                if (ticker == Constants.DURATION) {
                     this.cancel();
                     finishSimulation();
                 } else {

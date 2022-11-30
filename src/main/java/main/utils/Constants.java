@@ -1,4 +1,4 @@
-package main;
+package main.utils;
 
 public class Constants {
     public static int DRONES_AMOUNT = 20;

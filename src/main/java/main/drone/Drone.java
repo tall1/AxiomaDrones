@@ -1,8 +1,8 @@
 package main.drone;
 
-import main.Constants;
+import main.utils.Constants;
 import main.ground.control.GroundControl;
-import main.Output;
+import main.utils.Output;
 
 import java.util.Random;
 
