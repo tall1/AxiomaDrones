@@ -44,7 +44,7 @@ public class Simulator {
                     ticker++;
                 }
             }
-        }, 0, period);
+        }, 0, period);// The simulation will run every period * duration.
     }
 
     private void finishSimulation() {
