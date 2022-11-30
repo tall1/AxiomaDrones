@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92d48256-6295-479a-92f1-d309a02b685b" name="Changes" comment="Updated Drone, DroneState, Simulator and more.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/utils/Output.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/drone/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/drone/Drone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/drone/DroneState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/drone/DroneState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/ground/control/GroundControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/ground/control/GroundControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/simulator/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/simulator/Simulator.java" afterDir="false" />
-    </list>
+    <list default="true" id="92d48256-6295-479a-92f1-d309a02b685b" name="Changes" comment="Everything is working." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669760043285</updated>
-      <workItem from="1669760044758" duration="3041000" />
+      <workItem from="1669760044758" duration="3465000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Drone, DroneState, Simulator and more.">
       <created>1669761896843</created>
@@ -89,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669761896843</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Everything is working.">
+      <created>1669766485669</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669766485669</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated Drone, DroneState, Simulator and more." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Drone, DroneState, Simulator and more." />
+    <MESSAGE value="Everything is working." />
+    <option name="LAST_COMMIT_MESSAGE" value="Everything is working." />
   </component>
 </project>
