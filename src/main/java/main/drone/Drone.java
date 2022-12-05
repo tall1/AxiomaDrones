@@ -29,9 +29,10 @@ public class Drone {
                 state.setTimeToPassengerArrival(rnd.nextInt(1, Constants.MAX_TIME_FOR_PASSENGER_ARRIVAL + 1)); // Set random time to passenger arrival.
             }
         } else { // Drone is on the ground
-            state.setTimeToPassengerArrival(state.getTimeToPassengerArrival() - 1); // Decrement time to passenger arrival.
-            if (state.getTimeToPassengerArrival() <= 0) { // passenger arrived
-                if(state.getTimeToPassengerArrival() == 0){ // if passenger arrived now - print message:
+            int passengerArrival = state.getTimeToPassengerArrival();
+            state.setTimeToPassengerArrival(passengerArrival - 1); // Decrement time to passenger arrival.
+            if (passengerArrival <= 0) { // passenger arrived
+                if(passengerArrival == 0) { // if passenger arrived now - print message:
                     Output.printPassengerArrived(serialNo);
                 }
                 state.setHeight(groundControl.askForPermission()); // request for unused height
